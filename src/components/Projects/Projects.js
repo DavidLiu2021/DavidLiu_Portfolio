@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Fall from "../../Assets/Projects/Fall.png";
+import Monster from "../../Assets/Projects/Monster.png";
+import PDK from "../../Assets/Projects/PDK.png";
+import Raven from "../../Assets/Projects/Raven.png";
+import Reflection from "../../Assets/Projects/Reflection.png";
+import Reforge from "../../Assets/Projects/Reforge.png";
 
 function Projects() {
   return (
@@ -23,10 +23,10 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Reforge}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="Reforge"
+              description="China implemented family planning in the 1980s, when a family with two children would be severely punished. Nan Jiang was born as the second child of the family. He cannot stand the fact that he was the cause of the family poverty, and he did something to change......"
               ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://chatify-49.web.app/"
             />
@@ -34,10 +34,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Reflection}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Reflection"
+              description="“As above, so below” is the theme of Reflection.
+              When we control the seagull to fly, we are actually playing with playing with our imagination to have more freedom."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -45,10 +46,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={PDK}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="People Don't Know"
+              description="A man is suddenly grabbed into a train by a stranger who threatens to cure him. On this speeding train, everyone claims to be a doctor. However, he discovers that they all have incurable diseases and painful pasts."
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
@@ -56,10 +57,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Fall}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              title="The Fall"
+              description="The Fall is a multiplayer online Cthulhu-themed micro-fear VR game adapted from Murder Mystery script. It follows the strange adventures of six people with evil intentions in an apartment building. They fall through a lift into the underground of the building. Each floor is the intentional space of one of them. They need to explore floor by floor..."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
@@ -67,10 +68,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Monster}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              title="Monster"
+              description="Monster is a unity assignment completed by a team of 3. It is about how an electronic rabbit fights against with the higher class in the cyber city."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
@@ -78,11 +79,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={Raven}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              title="Raven"
+              description="Raven is a talented music student, but also a bipolar patient. She had to compose for a concert within 7 days, and then, she began to struggle on this..."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
