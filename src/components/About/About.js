@@ -1,11 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
-import Techstack from "./Techstack";
+import Education from "./Education";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
+import Experience from "./Experience";
 
 function About() {
   return (
@@ -28,24 +27,27 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "50px", paddingBottom: "50px" }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          EDU<strong className="purple">CATION</strong>
         </h1>
 
-        <Techstack />
+        <Education />
+        <br />
+        <br />
+        <br />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          EXP<strong className="purple">ERIENCE</strong>
         </h1>
-        <Toolstack />
+        <Experience />
 
-        <Github />
+
       </Container>
     </Container>
   );
