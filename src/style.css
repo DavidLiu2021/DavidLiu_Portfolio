@@ -741,3 +741,124 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+/* ------------------------------------------ */
+/* Graphic */
+/* ------------------------------------------ */
+
+.graphic-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+
+.graphic-heading h1{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+
+.slick-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+}
+
+
+.slick-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+  margin-top: 1rem;
+
+  position: relative;
+}
+
+.slick-body .quote{
+  font-size: 4rem;
+  position: absolute;
+  z-index: 10;
+
+  transform: translateY(50%);
+
+  opacity: 0.5;
+}
+
+.slick-img{
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  z-index: 3;
+  transform: translateY(50%);
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.slick-img img{
+  width: 450px;
+}
+
+.single-slick {
+  padding: 2rem;
+  width: 100%;
+  height: 500px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.slick-body button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  appearance: none;
+  outline: none;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.6rem;
+}
+.slick-body .prevBtn{
+  left: 5%;
+  cursor: pointer;
+}
+.slick-body .nextBtn{
+  right: 5%;
+  cursor: pointer;
+}
+
