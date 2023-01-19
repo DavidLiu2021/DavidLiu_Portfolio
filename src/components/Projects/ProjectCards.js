@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { BiCaretRightCircle } from "react-icons/bi";
 
 function ProjectCards(props) {
   return (
@@ -29,7 +30,7 @@ function ProjectCards(props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-            <CgWebsite /> &nbsp;
+            <BiCaretRightCircle /> &nbsp;
             {"Demo"}
           </Button>
         )}

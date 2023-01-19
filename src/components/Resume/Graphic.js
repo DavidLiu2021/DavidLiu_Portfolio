@@ -85,7 +85,7 @@ function Graphic() {
                 </Col>
                 <Col md={3} style={{ paddingBottom: 5 }}>
                 <img
-                    src={Warmpp}
+                    src={Warmbk}
                     alt="Warmpp"
                     className="img-fluid"
                     style={{ maxHeight: "400px" }}
