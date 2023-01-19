@@ -40,7 +40,7 @@ function Projects() {
               description="“As above, so below” is the theme of Reflection.
               When we control the seagull to fly, we are actually playing with playing with our imagination to have more freedom."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="https://www.bilibili.com/video/BV1VG4y1f7GP/?spm_id_from=333.999.0.0&vd_source=81f507780c5f3724647df2b527363b64"
             />
           </Col>
 
@@ -51,7 +51,7 @@ function Projects() {
               title="People Don't Know"
               description="A man is suddenly grabbed into a train by a stranger who threatens to cure him. On this speeding train, everyone claims to be a doctor. However, he discovers that they all have incurable diseases and painful pasts."
               ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              demoLink="https://www.bilibili.com/video/BV1U34y187F6/?spm_id_from=333.999.0.0&vd_source=81f507780c5f3724647df2b527363b64"              
             />
           </Col>
 

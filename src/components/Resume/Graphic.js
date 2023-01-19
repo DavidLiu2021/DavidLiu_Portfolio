@@ -5,6 +5,7 @@ import Majiaqi from "../../Assets/Graphic/Majiaqi.png"
 import Yangmi from "../../Assets/Graphic/Yangmi.png"
 import Yangyang from "../../Assets/Graphic/Yangyang.png"
 import Warmpp from "../../Assets/Graphic/Warmpp.png"
+import Dengxiaoci from "../../Assets/Graphic/Dengxiaoci.png"
 import Warmbk from "../../Assets/Graphic/Warmbk.png"
 import Christ1 from "../../Assets/Graphic/Christ1.png"
 import Christ2 from "../../Assets/Graphic/Christ2.png"
@@ -46,11 +47,13 @@ function Graphic() {
             <br/>
             <br/>
 
+            
+            {/* Graphic Design */}
             <Row>
                 <Col md={12} className="home-about-social">
-                <h1>FIND ME ON</h1>
+                <h1>GRAPHIC DESIGN</h1>
                 <p>
-                Feel free to <span className="purple">connect </span>with me
+                Weibo @ <span className="purple"> Super Topic </span> 
                 </p>
                 </Col>
             </Row>
@@ -74,7 +77,7 @@ function Graphic() {
                 </Col>
                 <Col md={3} style={{ paddingBottom: 5 }}>
                 <img
-                    src={Majiaqi}
+                    src={Warmpp}
                     alt="Majiaqi"
                     className="img-fluid"
                     style={{ maxHeight: "400px" }}
@@ -88,9 +91,214 @@ function Graphic() {
                     style={{ maxHeight: "400px" }}
                 />
                 </Col>
+                <Col md={2} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Dengxiaoci}
+                    alt="Warmpp"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
             </Row>
 
+            <br/>
+            <br/>
 
+            {/* Huiyin */}
+            <Row>
+                <Col md={12} className="home-about-social">
+                <h1>SYMPOSIUM COFFEE</h1>
+                <p>
+                CUHKSZ @ <span className="purple"> Student Start-up </span>
+                </p>
+                </Col>
+            </Row>
+
+            <Row>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Huiyin1}
+                    alt="Huiyin1"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Huiyin5}
+                    alt="Huiyin5"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Huiyin3}
+                    alt="Huiyin3"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Huiyin2}
+                    alt="Huiyin2"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+            </Row>
+
+            <br/>
+            <br/>
+
+
+            {/* Love */}
+            <Row>
+                <Col md={12} className="home-about-social">
+                <h1>LOVE SONG</h1>
+                <p>
+                Music Union @ <span className="purple"> Love Song Concert </span>
+                </p>
+                </Col>
+            </Row>
+
+            <Row>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Love1}
+                    alt="Love1"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Love2}
+                    alt="Love2"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Love3}
+                    alt="Love3"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Love4}
+                    alt="Love4"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+            </Row>
+
+            <br/>
+            <br/>
+
+
+            {/* Guitar */}
+            <Row>
+                <Col md={12} className="home-about-social">
+                <h1>GUITAR NIGHT</h1>
+                <p>
+                Music Union @ <span className="purple"> Guitar Night Concert </span>
+                </p>
+                </Col>
+            </Row>
+
+            <Row>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Guitar1}
+                    alt="Guitar1"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Guitar2}
+                    alt="Guitar2"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Guitar3}
+                    alt="Guitar3"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Guitar4}
+                    alt="Guitar4"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+            </Row>
+
+            <br/>
+            <br/>
+
+
+            {/* Christmas */}
+            <Row>
+                <Col md={12} className="home-about-social">
+                <h1>HALLOWEEN</h1>
+                <p>
+                CUHKSZ @ <span className="purple"> Halloween Parade </span>
+                </p>
+                </Col>
+            </Row>
+
+            <Row>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={HolW1}
+                    alt="HolW1"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={HolW2}
+                    alt="HolW2"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={HolW3}
+                    alt="HolW3"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={HolW4}
+                    alt="HolW4"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+            </Row>
+
+            <br/>
+            <br/>
+            <br/>
 
 
         </Container>
