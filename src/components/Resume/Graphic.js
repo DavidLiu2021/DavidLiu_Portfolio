@@ -31,8 +31,6 @@ import Love2 from "../../Assets/Graphic/Love2.png"
 import Love3 from "../../Assets/Graphic/Love3.png"
 import Love4 from "../../Assets/Graphic/Love4.png"
 import Love5 from "../../Assets/Graphic/Love5.png"
-import DesignCard from "./DesignCard"
-import { DesignData } from "./DesignData";
 
 
 
@@ -48,10 +46,51 @@ function Graphic() {
             <br/>
             <br/>
 
-
-            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                <DesignCard />
+            <Row>
+                <Col md={12} className="home-about-social">
+                <h1>FIND ME ON</h1>
+                <p>
+                Feel free to <span className="purple">connect </span>with me
+                </p>
+                </Col>
             </Row>
+
+            <Row>
+                <Col md={2} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Yangmi}
+                    alt="Yangmi"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+                <Col md={2} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Yangyang}
+                    alt="Yangyang"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Majiaqi}
+                    alt="Majiaqi"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+                <Col md={3} style={{ paddingBottom: 5 }}>
+                <img
+                    src={Warmpp}
+                    alt="Warmpp"
+                    className="img-fluid"
+                    style={{ maxHeight: "400px" }}
+                />
+                </Col>
+            </Row>
+
+
 
 
         </Container>
