@@ -10,6 +10,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
   AiOutlinePicture,
+  AiOutlineCamera,
 } from "react-icons/ai";
 
 
@@ -82,7 +83,17 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/photo"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineCamera style={{ marginBottom: "2px" }} /> Photography
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/graph"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlinePicture style={{ marginBottom: "2px" }} /> Graphic
