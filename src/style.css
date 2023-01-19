@@ -746,6 +746,39 @@ button:focus {
 /* ------------------------------------------ */
 /* Graphic */
 /* ------------------------------------------ */
+.slick {
+  font-family: var(--primaryFont);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
+
+
+.slick-slider {
+  height: 100% !important;
+  width: 100%;
+}
+
+.slick-initialized {
+  overflow: visible;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.slick-dots {
+  position: relative !important;
+  bottom: 1rem !important;
+}
+
 
 .graphic-section {
   position: relative !important;
@@ -761,81 +794,25 @@ button:focus {
   text-align: center;
 }
 
-
-.slick-view {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 70%;
+.graph-heading h1{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-align: center;
 }
 
-
-.slick-body {
+.graph-body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   text-align: center;
-  width: 95%;
+  width: 100%;
   margin-top: 1rem;
 
   position: relative;
 }
 
-.slick-body .quote{
-  font-size: 4rem;
-  position: absolute;
-  z-index: 10;
-
-  transform: translateY(50%);
-
-  opacity: 0.5;
-}
-
-.slick-img{
-  margin: 0 auto;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  z-index: 3;
-  transform: translateY(50%);
-  box-shadow: 0 0 5px rgba(0,0,0,0.2);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.slick-img img{
-  width: 450px;
-}
-
-.single-slick {
-  padding: 2rem;
-  width: 100%;
-  height: 500px;
-  position: relative;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.slick-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-
-
-
-.slick-body button{
+.graph-body button{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -853,12 +830,108 @@ button:focus {
 
   font-size: 1.6rem;
 }
-.slick-body .prevBtn{
+.graph-body .prevBtn{
   left: 5%;
   cursor: pointer;
 }
-.slick-body .nextBtn{
+.graph-body .nextBtn{
   right: 5%;
   cursor: pointer;
 }
 
+.graph-slider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.single-graph {
+  padding: 2rem;
+  width: 100%;
+  height: 500px;
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.graph-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.graph-img{
+  margin: 0 auto;
+  width: 500px;
+  height: 20px;
+  border-radius: 100%;
+  z-index: 1;
+  transform: translateY(100%);
+  box-shadow: 0 0 0px rgba(0,0,0,0.2);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.graph-img img{
+    width: 400px;
+}
+
+@media (max-width: 130px) {
+    .graph {
+        height: 100%;
+        padding-bottom: 2rem;
+    }
+  .graph-heading h1{
+    font-size: 3rem;
+    margin-top: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .graph-heading h1{
+    font-size: 2.5rem;
+  }
+  .graph-body{
+    width: 100%;
+  }
+  .graph-body button{
+    display: none;
+  }
+  .slick-graph {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .graph-img {
+    margin: initial;
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 700px){
+  .graph-heading h1{
+    font-size: 2.2rem;
+  }
+  .graph-slider {
+    width: 100%;
+  }
+  .graph-img{
+    width: 500px;
+    height: 120px;
+  }
+  .graph-img img{
+    width: 300px;
+    height: 300px;
+  }
+}

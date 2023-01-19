@@ -31,7 +31,9 @@ import Love2 from "../../Assets/Graphic/Love2.png"
 import Love3 from "../../Assets/Graphic/Love3.png"
 import Love4 from "../../Assets/Graphic/Love4.png"
 import Love5 from "../../Assets/Graphic/Love5.png"
-import DesignCard from "./DesignCard.js"
+import DesignCard from "./DesignCard"
+import { DesignData } from "./DesignData";
+
 
 
 
@@ -39,20 +41,20 @@ function Graphic() {
     return (
         <Container fluid className="graphic-section">
         <Particle />
-            <Container>
-                <h1 className="graphic-heading">
-                    <strong className="purple">Photography & Graphic Design</strong>
-                </h1>
-                <br/>
-                <br/>
+        <Container>
+            <h1 className="graphic-heading">
+                <strong className="purple">Photography & Graphic Design</strong>
+            </h1>
+            <br/>
+            <br/>
 
 
-                <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                    <DesignCard />
-                </Row>
+            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                <DesignCard />
+            </Row>
 
 
-            </Container>
+        </Container>
         </Container>
     );
 }

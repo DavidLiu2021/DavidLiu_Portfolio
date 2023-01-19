@@ -4,13 +4,13 @@ import {
     FaArrowRight, 
     FaArrowLeft 
 } from 'react-icons/fa';
-import { DesignData } from "./DesignData.js";
+import { DesignData } from "./DesignData";
 
 
 function Slick() {
     const sliderRef = useRef();
     const settings = {
-        dots: true,
+        // dots: true,
         adaptiveHeight: true,
         infinite: true,
         speed: 800,
@@ -24,6 +24,7 @@ function Slick() {
         draggable: true,
         swipeToSlide: true,
         swipe: true,
+
     };
     const gotoNext = () => {
         sliderRef.current.slickNext();
@@ -35,20 +36,21 @@ function Slick() {
     return (
         <>
         {DesignData.length > 0 && (
-            <div className="slick-view">
-                <div className="slick-heading">
+            <div className="graph">
+                <div className="graph-heading">
                     <h1 style={{ color: "purple" }}>Graphic Design</h1>
                 </div>
 
-                <div className="slick-body">
+                <div className="graph-body">
+                    <div className="graph-slider">
                         <Slider {...settings} ref={sliderRef}>
                             {DesignData.map((props) => (
-                                <div className="single-slick" key={props.id}>
-                                <div className="slick-container">
-                                    <div className="slick-img">
-                                        <img src={props.img} alt={props.title}/>
+                                <div className="single-graph" key={props.id}>
+                                    <div className="graph-container">
+                                        <div className="graph-img">
+                                            <img src={props.img} alt={props.title}/>
+                                        </div>
                                     </div>
-                                </div>
                                 </div>
                             ))}
                         </Slider>
@@ -57,18 +59,19 @@ function Slick() {
                         <button
                             className="prevBtn"
                             onClick={gotoPrev}
-                            style={{ backgroundcolor: "purple" }}
+                            style={{ color: "purple" }}
                         >
-                            <FaArrowLeft style={{ color: "white" }} />
+                            <FaArrowLeft style={{ color: "purple" }} />
                         </button>
 
                         <button
                             className="nextBtn"
                             onClick={gotoNext}
-                            style={{ backgroundcolor: "purple" }}
+                            style={{ color: "purple" }}
                         >
-                            <FaArrowRight style={{ color: "white" }} />
+                            <FaArrowRight style={{ color: "purple" }} />
                         </button>
+                    </div>
                 </div>
             </div>
         )};
