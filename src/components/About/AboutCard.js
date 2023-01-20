@@ -21,7 +21,7 @@ function AboutCard() {
               <ImPointRight /> C++, Python, R, Javascript
             </li>
             <li className="about-activity">
-              <ImPointRight /> Unreal, Unity
+              <ImPointRight /> Unreal, Unity, Blender
             </li>
             <li className="about-activity">
               <ImPointRight /> Photoshop, Illustrator, Procreate
