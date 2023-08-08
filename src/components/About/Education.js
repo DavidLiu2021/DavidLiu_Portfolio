@@ -7,9 +7,14 @@ function EDU() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-          <span className="purple"> Chinese University of Hong Kong, Shenzhen</span>
+          <span className="purple"> Center for Digital Media</span>
+            <br />Sep 2023 – Dec 2025
+            <br />Master of Digital Media
+            <br />
+            <br />
+            <span className="purple"> Chinese University of Hong Kong, Shenzhen</span>
             <br />Sep 2019 – Mar 2023
-            <br />Bachelor of Finance
+            <br />Bachelor of Business Administration
             <br />
             <br />
             <span className="purple"> Rongcheng Third High School</span>
