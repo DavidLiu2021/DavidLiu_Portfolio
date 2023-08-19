@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Majiaqi from "../../Assets/Graphic/Majiaqi.png"
 import Yangmi from "../../Assets/Graphic/Yangmi.png"
 import Yangyang from "../../Assets/Graphic/Yangyang.png"
 import Warmpp from "../../Assets/Graphic/Warmpp.png"
@@ -9,21 +8,21 @@ import Dengxiaoci from "../../Assets/Graphic/Dengxiaoci.png"
 import Warmbk from "../../Assets/Graphic/Warmbk.png"
 import Voice1 from "../../Assets/Graphic/Voice1.png"
 import Voice2 from "../../Assets/Graphic/Voice2.png"
-import FTZ from "../../Assets/Graphic/FTZ.png"
 import HPY from "../../Assets/Graphic/HPY.png"
-import LKT from "../../Assets/Graphic/LKT.png"
-import LSM from "../../Assets/Graphic/LSM.png"
-import XHX from "../../Assets/Graphic/XHX.png"
 import ZJY from "../../Assets/Graphic/ZJY.png"
 import ZQY from "../../Assets/Graphic/ZQY.png"
 import ZKW from "../../Assets/Graphic/ZKW.png"
-import ZSQ from "../../Assets/Graphic/ZSQ.png"
 import MU1 from "../../Assets/Graphic/MU1.png"
 import MU2 from "../../Assets/Graphic/MU2.png"
 import MU3 from "../../Assets/Graphic/MU3.png"
 import MU4 from "../../Assets/Graphic/MU4.png"
 import MU5 from "../../Assets/Graphic/MU5.png"
 import MU6 from "../../Assets/Graphic/MU6.png"
+import ARK1 from "../../Assets/Graphic/ARK1.png"
+import ARK2 from "../../Assets/Graphic/ARK2.png"
+import ARK3 from "../../Assets/Graphic/ARK3.png"
+import ARK4 from "../../Assets/Graphic/ARK4.png"
+
 
 
 
@@ -40,6 +39,60 @@ function Graphic() {
             <br/>
 
             
+            {/* Graphic Design */}
+            <Row>
+                <Col md={12} className="home-about-social">
+                <h1>ARKNIGHTS</h1>
+                <p>
+                Cover @ <span className="purple"> Arknights </span> 
+                </p>
+                </Col>
+            </Row>
+
+            <Row>
+                <Col md={6} style={{ paddingBottom: 5 }}>
+                <img
+                    src={ARK1}
+                    alt="ARK1"
+                    className="img-fluid"
+                    style={{ maxHeight: "300px" }}
+                />
+                </Col>
+                <Col md={6} style={{ paddingBottom: 5 }}>
+                <img
+                    src={ARK2}
+                    alt="ARK2"
+                    className="img-fluid"
+                    style={{ maxHeight: "300px" }}
+                />
+                </Col>
+            <Row>
+            <br/>
+
+            </Row>
+                <Col md={6} style={{ paddingBottom: 5 }}>
+                <img
+                    src={ARK3}
+                    alt="ARK3"
+                    className="img-fluid"
+                    style={{ maxHeight: "300px" }}
+                />
+                </Col>
+                <Col md={6} style={{ paddingBottom: 5 }}>
+                <img
+                    src={ARK4}
+                    alt="ARK4"
+                    className="img-fluid"
+                    style={{ maxHeight: "300px" }}
+                />
+                </Col>
+            </Row>
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
             {/* Graphic Design */}
             <Row>
                 <Col md={12} className="home-about-social">
@@ -97,6 +150,7 @@ function Graphic() {
             <br/>
             <br/>
             <br/>
+
 
             {/* The Voice */}
             <Row>
