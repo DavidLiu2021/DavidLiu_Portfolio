@@ -12,7 +12,7 @@ function EDU() {
             <br />Master of Digital Media
             <br />
             <br />
-            <span className="purple"> Chinese University of Hong Kong, Shenzhen</span>
+            <span className="purple"> Chinese University of Hong Kong</span>
             <br />Sep 2019 – Mar 2023
             <br />Bachelor of Business Administration
             <br />
